@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication.MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Valider" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:hint="Entrer Adresse IP"
+        android:layout_toLeftOf="@+id/button1"
+        android:layout_toStartOf="@+id/button1" />
+
+    <View
+        android:id="@+id/view12"
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentBottom="true"
+        android:background="#3bbdfa" />
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="631dp"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/screen"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="679dp"
+        android:text="Prendre une photo"/>
+
+</RelativeLayout>
