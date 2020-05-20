@@ -19,7 +19,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.util.Date;
 
-//oui
+
 
 public class MainActivity extends Activity {
 
